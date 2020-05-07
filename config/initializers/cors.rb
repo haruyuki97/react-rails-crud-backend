@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins /localhost\:\d+/, /xxxxx-react-frontend\.herokuapp\.com/
+    origins /localhost\:\d+/, /harucrud-react-frontend\.herokuapp\.com/
 
     resource '*',
       headers: :any,
